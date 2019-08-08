@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+  padding: 20px;
+  font-family: 'Open Sans';
+  background-color: SaddleBrown;
+  /*opacity: 0.9; for faded effect*/
+}
+main{
+  margin: 15px;
+  padding: 5px;
+  background-color: #EEEEEE;
+}
+header{
+  text-align: center;
+}
+#img-div{
+  margin: 5px;
+  padding: 10px;
+  background-color: white;
+
+}
+/*@media only screen and (max-width: 1500px) {
+*/    img {
+        max-width: 50%;
+        border-radius: 5px;
+    }
+/*}*/
+#tribute-info{
+  margin: 5px;
+}
+#tribute-info > h2{
+  margin-left: 1em;
+}
+
+figure{
+  max-width: 100%; 
+}
+figcaption{
+  margin:15px; 
+}
+ol > li{
+  color: SaddleBrown;
+  font-weight: bolder;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+iframe,form,#section3 > p{
+  margin-left: 2em;
+}
+#section3{
+  margin: 5px;
+  padding: 10px;
+  background-color: white;
+}
+iframe{
+  border-radius: 5px;
+}
+footer {
+  font-family: 'Indie Flower';
+  background-color:black;
+  color:white;
+  clear:both;
+  text-align:center;
+  padding:5px; 
+  box-shadow: 5px 5px 5px gray;
+}
+blockquote{
+  padding: 2px; 
+  font-style: italic;
+  background-color: rgba(188, 188, 188, 0.2);
+  border-radius: 5px;
+}
+blockquote > p{
+  color: SaddleBrown;
+  opacity: 0.7;
+  text-align: center;
+  font-style: italic;
+}
+h2{
+  font-family: Lobster;
+  color: purple;
+}
